@@ -271,7 +271,8 @@ function A2A_SHARE_SAVE_to_bottom_of_content($content) {
 		$container_wrap_close = '</ul></div>';
 	}
 	
-	$content .= $container_wrap_open.ADDTOANY_SHARE_SAVE_ICONS( $icons_args ).ADDTOANY_SHARE_SAVE_BUTTON( $A2A_SHARE_SAVE_options ).$container_wrap_close;
+	//$content .= $container_wrap_open.ADDTOANY_SHARE_SAVE_ICONS( $icons_args ).ADDTOANY_SHARE_SAVE_BUTTON( $A2A_SHARE_SAVE_options ).$container_wrap_close;
+	$content .= $container_wrap_open.ADDTOANY_SHARE_SAVE_ICONS( $icons_args ).$container_wrap_close;
 	return $content;
 }
 
